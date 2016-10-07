@@ -47,13 +47,6 @@ h3 {
 	padding-bottom: 10px;
 }
 
-h4 {
-	font-size: 1em;
-	color: rgb(106, 106, 106);
-	margin: 0;
-	padding-bottom: 10px;
-}
-
 .avatar {
 	position: absolute;
 	left: 60px;
@@ -99,26 +92,42 @@ code {
 .a {
 	color: rgb(0, 0, 238);
 }
+
+@font-face {
+	font-family: Acme;
+	src: url("./acme.ttf");
+}
+
+.hearthsim {
+	color: #454545;
+	font-family: Acme;
+	font-size: 1.15em;
+	margin: 0.2em 0;
+	padding-bottom: 10px;
+}
+
+.hearthsim span {
+	color: #b90303;
+}
 </style>
 </head>
 <body>
 	<div class="card">
 		<h3>Jerome Leclanche</h3>
-		<h4>Founder, CTO</h4>
-		<h4>HearthSim</h4>
+		<h4 class="hearthsim">Hearth<span>Sim</span></h4>
 		<img src="avatar.png" class="avatar"/>
 		<ul>
 			<li>
-				Athens, Greece
-				<img height="48" width="48" src="home.png"/>
+				&lt;jerome<span>&#64;</span>hearthsim<span>&#46;</span>net&gt;
+				<img height="50" width="32" src="hsim.png" style="position: relative; right: 8px;"/>
 			</li>
 			<li>
 				&lt;jerome<span>&#64;</span>leclan<span>&#46;</span>ch&gt;
 				<img height="48" width="48" src="mail.png"/>
 			</li>
 			<li>
-				+30 695 301 2166
-				<img height="29" width="44" src="greece.png" style="position: relative; top: -3px; right: 1px;"/>
+				+44 020 3095 8432
+				<img height="29" width="44" src="uk.png" style="position: relative; top: 0; right: 1px;"/>
 			</li>
 			<li>
 				<span class="a">https://leclan.ch</span>
