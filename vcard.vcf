@@ -1,8 +1,10 @@
 BEGIN:VCARD
-VERSION:2.1
+VERSION:3.0
 N:Leclanche;Jerome
 FN:Jerome Leclanche
-ADR;HOME:;;;Athens;;;Greece
-TEL;CELL:+36953012166
+ORG:HearthSim
+PHOTO;VALUE=URI;TYPE=PNG:https://leclan.ch/avatar.png
+TEL;CELL:+16507333250
 EMAIL:jerome@leclan.ch
+REV:2017-11-16T08:00:00Z
 END:VCARD
